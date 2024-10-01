@@ -1,0 +1,67 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de usuario de Visual Studio
+.vscode/
+*.code-workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de publicación
+publish/
+out/
+
+# Paquetes
+*.nupkg
+*.snupkg
+packages/
+# Paquetes NuGet generados por Visual Studio
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs, sistema de seguimiento y bases de datos locales
+*.log
+**/*.sql
+*.ldf
+*.mdf
+
+# Directorios generados por Visual Studio Code
+.vscode/
+
+# Archivos generados por las herramientas de la línea de comandos de .NET
+project.lock.json
+project.fragment.lock.json
+
+# Dependencias locales de terceros
+lib/
+
+# Archivos de configuración local
+appsettings.Development.json
+secrets.json
+
+# Archivos de información para depuración
+*.pdb
+*.mdb
+
+# Certificados locales
+*.pfx
+*.key
+
+# Archivos de configuración para Docker
+docker-compose.override.yml
+
+# Archivos de configuración para Kubernetes
+*.k8s.yaml
+
+# Sistemas de control de versiones
+.idea/
+*.idea
